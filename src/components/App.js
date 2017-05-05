@@ -1,28 +1,28 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link, IndexLink } from 'react-router';
+/**
+ * Created by axa on 05/05/2017.
+ */
+import React  from 'react';
+import {Link} from 'react-router';
 
-// This is a class-based component because the current
-// version of hot reloading won't hot reload a stateless
-// component at the top-level.
-class App extends React.Component {
-  render() {
-    return (
+const App = (props) => {
+  return (
+    <div>
+      <nav>
+        <div className="nav-wrapper container">
+          <a href="#" className="brand-logo">HAIRDV</a>
+          <ul className="right hide-on-med-and-down">
+              <li><Link to="/">AIDE</Link></li>
+              <li><Link to="/">CONNEXION</Link></li>
+              <li><Link to="/">DEVENEZ COIFFEUR</Link></li>
+          </ul>
+        </div>
+      </nav>
       <div>
-        <IndexLink to="/">Home</IndexLink>
-        {' | '}
-        <Link to="/fuel-savings">Demo App</Link>
-        {' | '}
-        <Link to="/about">About</Link>
-        <br/>
-        {this.props.children}
+          {/* Each smaller components */}
+          {props.children}
       </div>
-    );
-  }
-}
-
-App.propTypes = {
-  children: PropTypes.element
+    </div>
+  );
 };
 
 export default App;
