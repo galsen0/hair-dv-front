@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc7ec2d-648d-42ff-8526-2eab87629f25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/account/Account.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/account/CurrentReservation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/account/DeleteAccount.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/account/EditProfileForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/account/ListAppointments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/account/PastReservation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/account/TabComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/account/UserProfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/auth/LoginForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/auth/SignUpForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/auth/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/booking/AlertNewDate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/booking/BarberSmallCard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/booking/BookingConfirmationForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/booking/BookingConfirmed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/booking/BookingReview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/booking/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/Home/FirstHomeElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/Home/FooterComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/Home/NavBarComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/Home/SecondHomeElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/Home/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/SearchFormComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/search/BarbersLocationsMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/search/BottomPagination.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/search/DateTableComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/search/NavSearchFormComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/search/SearchResults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/search/SingleResearchResult.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/search/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/rating.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/common/HomePage.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/materialize-css/dist/css/materialize.css" afterPath="$PROJECT_DIR$/node_modules/materialize-css/dist/css/materialize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.js" afterPath="$PROJECT_DIR$/src/components/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.ejs" afterPath="$PROJECT_DIR$/src/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/styles.scss" afterPath="$PROJECT_DIR$/src/styles/styles.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -637,12 +598,12 @@
       <workItem from="1493988299351" duration="79000" />
       <workItem from="1493988391210" duration="6003000" />
       <workItem from="1493997207765" duration="11139000" />
-      <workItem from="1494022211458" duration="53498000" />
+      <workItem from="1494022211458" duration="54033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70719000" />
+    <option name="totallyTimeSpent" value="71254000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,7 +616,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25178713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -663,7 +623,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3260274" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3260274" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
