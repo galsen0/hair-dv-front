@@ -12,11 +12,9 @@ const options = [
 const EditProfileForm = () => (
     <Segment>
         <Form>
-            <Form.Group widths='equal'>
-                <Form.Field control={Select} options={options} placeholder='Genre' />
-                <Form.Field control={Input} placeholder='Prénom' />
-                <Form.Field control={Input} placeholder='Nom' />
-            </Form.Group>
+            <Form.Select options={options} placeholder='Genre' compact/>
+            <Form.Field control={Input} placeholder='Prénom' />
+            <Form.Field control={Input} placeholder='Nom' />
             <Form.Field>
                 <input placeholder='Adresse email' />
             </Form.Field>
@@ -38,15 +36,9 @@ const EditProfileForm = () => (
             </Form.Group>
             <Form.Group widths='equal'>
                 <label>Date de naissance</label>
-                <Form.Field>
-                    <Form.Field control={Select} options={options} placeholder='Jour' />
-                </Form.Field>
-                <Form.Field>
-                    <Form.Field control={Select} options={options} placeholder='Mois' />
-                </Form.Field>
-                <Form.Field>
-                    <Form.Field control={Select} options={options} placeholder='Année' />
-                </Form.Field>
+                <Form.Field control={Select} options={options} placeholder='Jour' compact/>
+                <Form.Field control={Select} options={options} placeholder='Mois' compact/>
+                <Form.Field control={Select} options={options} placeholder='Année' compact/>
             </Form.Group>
             <Divider/>
             <Button type='submit' size={"huge"}>ENREGISTRER</Button>
