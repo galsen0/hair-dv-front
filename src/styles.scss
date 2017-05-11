@@ -1,0 +1,46 @@
+.ui.grid {
+  margin-left: 0;
+}
+
+h1{
+  font-size: 4em;
+  display: block;
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.marginLefted {
+  padding-left: 3%;
+  padding-bottom: 3%;
+}
+
+.textCentered {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.BlankLink a, .textConfirmation a {
+  color: #247BA0;
+  cursor: pointer;
+}
+
+.BlankLink a:hover, .textConfirmation a:hover {
+  text-decoration: underline;
+}
+
+.rightFloat {
+  float: right;
+}

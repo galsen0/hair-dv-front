@@ -1,0 +1,13 @@
+:local(.Calendar){
+    .ui.table {
+      border: none
+    }
+    .ui.table thead th {
+      background-color: white;
+    }
+
+    .ui.table tfoot th {
+      border-top: none;
+      background-color: white;
+    }
+}

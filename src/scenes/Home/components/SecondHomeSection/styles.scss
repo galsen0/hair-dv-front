@@ -1,0 +1,23 @@
+:local(.SecondHomeSection) {
+  .customContent {
+    background-color: #EBF3F6;
+    padding-top: 5%;
+    padding-left: 7%;
+  }
+
+  section {
+    width: 100%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #247BA0;
+    height: 100vh;
+  }
+
+  section {
+    padding: 0 7%;
+    &:nth-of-type(2n) {
+      background-color: white;
+    }
+  }
+}

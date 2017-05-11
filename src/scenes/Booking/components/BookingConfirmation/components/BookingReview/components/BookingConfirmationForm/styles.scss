@@ -1,0 +1,10 @@
+:local(.BookingConfirmationForm){
+  .BlankLink a, .textConfirmation a {
+    color: #247BA0;
+    cursor: pointer;
+  }
+
+  .BlankLink a:hover, .textConfirmation a:hover {
+    text-decoration: underline;
+  }
+}

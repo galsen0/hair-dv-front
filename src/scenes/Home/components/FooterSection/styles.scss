@@ -1,0 +1,34 @@
+:local(.FooterComponent){
+  .smallSection, .bottomSection {
+    color: white;
+  }
+  .bottomSection {
+    background-color: #26a69a;
+    height: 25vh;
+  }
+
+  .bottomSection li {
+    //list-style-type: none;
+  }
+
+  .bottomSection a:hover {
+    cursor: pointer;
+    color: #414344
+  }
+
+  .bottomSection h3 {
+    color: white;
+  }
+
+  .smallSection {
+    width: 100%;
+    padding: 3% 3%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #414344;
+    height: 15vh;
+    color: white;
+  }
+
+}
